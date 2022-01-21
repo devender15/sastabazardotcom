@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* using custom classes to use it again and again */
+html,body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.transp{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.animate-up:hover{
+    transform: translateY(-25px);
+    transition: all 0.4s ease-in-out;
+    box-shadow: 0px 0px 50px pink ;
+}
